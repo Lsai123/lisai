@@ -1,27 +1,100 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8" />
 		<title></title>
-		<style>
-			.box{
-				width: 100px;
-				height: 100px;background: url(loading.png) left no-repeat;
-				animation:loading 3s steps(8) infinite;
+		<style type="text/css">
+			.box {
+				height: 119px;
+				width: 73px;
+				background: url(img/hua.jpg) left no-repeat;
+				animation: hua 2s steps(6) infinite;
 			}
-			@keyframes loading{
-				from{
+			@keyframes hua {
+				0% {
 					background-position: 0 0;
 				}
-				to{
+				100% {
+					background-position: -438px 0;
+				}
+			}
+			.box1 {
+				width: 662px;
+				height: 681px;
+				background: url(img/jd.png) no-repeat top;
+				animation: jd 3s steps(3) infinite;
+			}
+			@keyframes jd{
+				0% {
+					background-position: 0 0;
+				}
+				100% {
+					background-position: 0 -2045px;
+				}
+			}
+			.box2 {
+				width: 100px;
+				height: 100px;
+				background: url(img/loading.png) no-repeat left;
+				animation: loading 2s steps(8) infinite;
+			}
+			@keyframes loading {
+				0% {
+					background-position: 0 0;
+				}
+				100% {
 					background-position: -800px 0;
+				}
+			}
+			.box3 {
+				height: 140px;
+				width: 140px;
+				background: url(img/run.png) no-repeat left;
+				animation: run 1s steps(12) infinite;
+			}
+			@keyframes run {
+				0% {
+					background-position: 0 0;
+				}
+				100% {
+					background-position: -1680px 0;
+				}
+			}
+			.box4 {
+				height: 156px;
+				width: 137px;
+				background: url(img/run2.png) no-repeat left;
+				animation: run2 2s steps(10) infinite;
+			}
+			@keyframes run2 {
+				0% {
+					background-position: 0 0;
+				}
+				100% {
+					background-position: -1372px 0;
+				}
+			}
+			.box5 {
+				height: 293px;
+				width: 160px;
+				background: url(img/walk.jpg) no-repeat left;
+				animation: walk 2s steps(6) infinite;
+			}
+			@keyframes walk {
+				0% {
+					background-position: 0 0;
+				}
+				100% {
+					background-position: -1080px 0;
 				}
 			}
 		</style>
 	</head>
 	<body>
-		<div class="box">
-			
-		</div>
+		<div class="box"></div>
+		<div class="box1"></div>
+		<div class="box3"></div>
+		<div class="box4"></div>
+		<div class="box5"></div>
 	</body>
 </html>
